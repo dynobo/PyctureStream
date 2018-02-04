@@ -12,7 +12,7 @@ fi
 # Download Start Script for Jupyter with pySpark
 rm -f "$HOME/start_jupyter.sh"
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/start_jupyter.sh && chmod +x ./start_jupyter.sh
-
+mkdir "$HOME/notebooks"
 
 # Enable Cron
 sudo rm -f "/etc/init.d/start_jupyter.sh"

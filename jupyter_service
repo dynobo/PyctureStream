@@ -1,6 +1,8 @@
 #! /bin/sh
 # /etc/init.d/jupyter_service
-#
+# chkconfig: - 90 10
+# description: Running Jupyter Notebook with Spark Context
+
 
 # Some things that run always
 touch /var/lock/jupyter_service
