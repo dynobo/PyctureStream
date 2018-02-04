@@ -6,5 +6,9 @@ wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh && chmod 
 # Download Start Script for Jupyter with pySpark
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/start_jupyter.sh && chmod +x ./start_jupyter.sh
 
+# Enable Cron
+sudo chkconfig crond on
+sudo service crond start
+
 # Add Jupyter Start Script to Cron for reboot
 (crontab -l 2>/dev/null; echo "@reboot /home/cloudera/start_jupyer.sh") | crontab -

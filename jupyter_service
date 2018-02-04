@@ -1,0 +1,26 @@
+#! /bin/sh
+# /etc/init.d/jupyter_service
+#
+
+# Some things that run always
+touch /var/lock/jupyter_service
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting Jupyter Service ..."
+    export PYSPARK_DRIVER_PYTHON="/home/cloudera/anaconda3/bin/jupyter"
+    export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.token='' --port=8889 --ip=0.0.0.0"
+    pyspark
+    ;;
+  stop)
+    echo "Stopping Jupyter Service ..."
+    echo "Could do more here"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/jupyter_service {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

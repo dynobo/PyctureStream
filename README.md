@@ -43,6 +43,7 @@
 - Add port forwarding:
     - SSH: Host 127.0.0.1:2233 to Guest 10.0.2.15:22
     - HUE:  Host 127.0.0.1:8888 to Guest 10.0.2.15:8888
+    - JUPYTER:  Host 127.0.0.1:8889 to Guest 10.0.2.15:8889
 
 **Configure Cloudera Quickstart**
 - SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2233` (Default PW: cloudera)
@@ -51,3 +52,9 @@
     wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
     ```
     Important: Use default Options for Anaconda Installation,  except for the "Add to Path?", where you should choose "Yes", instead the default.
+
+**Connect to Hue**
+- In host browser: `http://127.0.0.1:8888/`
+
+**Connect to Jupyter**
+- In host browser: `http://127.0.0.1:8889/`
