@@ -9,9 +9,7 @@ touch /var/lock/jupyter_service
 case "$1" in
   start)
     echo "Starting Jupyter Service ..."
-    export PYSPARK_DRIVER_PYTHON="/home/cloudera/anaconda3/bin/jupyter"
-    export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.token='' --port=8889 --ip=0.0.0.0"
-    pyspark
+    /sbin/runuser cloudera -s /bin/bash -c "/home/cloudera/start_jupyter.sh"
     ;;
   stop)
     echo "Stopping Jupyter Service ..."

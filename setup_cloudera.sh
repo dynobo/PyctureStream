@@ -1,14 +1,21 @@
 #!/bin/bash
 
+HOME = "/home/cloudera"
+
 # Install Anaconda with Jupyter
-wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh && chmod +x Anaconda3-5.0.1-Linux-x86_64.sh && ./Anaconda3-5.0.1-Linux-x86_64.sh
+if [ ! -d "$HOME/anaconda3" ]; then
+    wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh && chmod +x Anaconda3-5.0.1-Linux-x86_64.sh && ./Anaconda3-5.0.1-Linux-x86_64.sh
+else
+    echo "Anaconda3 was already installed."
+fi
 
 # Download Start Script for Jupyter with pySpark
+rm -f "$HOME/start_jupyter.sh"
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/start_jupyter.sh && chmod +x ./start_jupyter.sh
 
-# Enable Cron
-sudo chkconfig crond on
-sudo service crond start
 
-# Add Jupyter Start Script to Cron for reboot
-(crontab -l 2>/dev/null; echo "@reboot /home/cloudera/start_jupyer.sh") | crontab -
+# Enable Cron
+sudo rm -f "/etc/init.d/start_jupyter.sh"
+wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/jupyter_service && chmod +x ./jupyter_service
+sudo mv jupyter_service /etc/init.d/
+sudo update-rc.d jupyter_service defaults
