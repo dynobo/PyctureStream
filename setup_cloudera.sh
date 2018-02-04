@@ -4,7 +4,7 @@ HOME = "/home/cloudera"
 
 # Install Anaconda with Jupyter
 if [ ! -d "$HOME/anaconda2" ]; then
-    wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh && chmod +x Anaconda2-5.0.1-Linux-x86_64.sh && ./Anaconda3-2.0.1-Linux-x86_64.sh
+    wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh && chmod +x Anaconda2-5.0.1-Linux-x86_64.sh && ./Anaconda2-5.0.1-Linux-x86_64.sh
 else
     echo "Anaconda3 was already installed."
 fi
