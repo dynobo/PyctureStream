@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/start_jupyter
 mkdir "$HOME/notebooks"
 
 # Enable Cron
-sudo rm -f "/etc/init.d/start_jupyter.sh"
-wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/jupyter_service && chmod +x ./jupyter_service
-sudo mv jupyter_service /etc/init.d/
+CMD='/sbin/runuser cloudera -s /bin/bash -c "/home/cloudera/start_jupyter.sh &"'
+grep -q -F "$CMD" /etc/rc.d/rc.local || echo "$CMD" | sudo tee -a /etc/rc.d/rc.local
+
 sudo update-rc.d jupyter_service defaults
