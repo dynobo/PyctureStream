@@ -2,6 +2,14 @@
 
 HOME = "/home/cloudera"
 
+# Install Kafka
+sudo yum clean all
+sudo yum install -y kafka
+sudo yum install -y kafka-server
+
+# Start Kafka Server
+sudo service kafka-server start
+
 # Install Anaconda with Jupyter
 if [ ! -d "$HOME/anaconda2" ]; then
     wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh && chmod +x Anaconda2-5.0.1-Linux-x86_64.sh && ./Anaconda2-5.0.1-Linux-x86_64.sh
