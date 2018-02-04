@@ -18,7 +18,7 @@
 
 **Configure Kafka**
 - Boot VM
-- Run in [setup_kafka.sh](setup_kafka.sh) in VM:
+- Run [setup_kafka.sh](setup_kafka.sh) in VM:
     ```bash
     wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_kafka.sh && chmod +x ./setup_kafka.sh && ./setup_kafka.sh
     ```
@@ -46,3 +46,8 @@
 
 **Configure Cloudera Quickstart**
 - SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2233` (Default PW: cloudera)
+- Run [setup_cloudera.sh](setup_cloudera.sh) in VM:
+    ```bash
+    wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
+    ```
+    Important: Use default Options for Anaconda Installation,  except for the "Add to Path?", where you should choose "Yes", instead the default.
