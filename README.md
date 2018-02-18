@@ -21,21 +21,26 @@
 **Configure Cloudera**
 - SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default PW: cloudera)
 - Run [setup_cloudera.sh](setup_cloudera.sh) in VM:
-    ```bash
-    wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
-    ```
-    Important: Use default Options for Anaconda Installation,  except for the "Add to Path?", where you should choose "Yes", instead the default.
+
+```bash
+wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
+```
+
+Important: Use default Options for Anaconda Installation,  except for the "Add to Path?", where you should choose "Yes", instead the default.
 
 ## Test Kafka:
-    - Create topic
-    ```bash
-    kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partitions 1 --replication-factor 1
-    ```
-    - Open [./notebooks/kafka_wordcount.ipynb](./notebooks/kafka_wordcount.ipynb) in Jupyter and run as Consumer.
-    - Use console as Producer to and create some stream events:
-     ```bash
-     kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
-     ```
+- Create topic
+
+```bash
+kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partitions 1 --replication-factor 1
+```
+
+- Open [./notebooks/kafka_wordcount.ipynb](./notebooks/kafka_wordcount.ipynb) in Jupyter and run as Consumer.
+- Use console as Producer to and create some stream events:
+
+ ```bash
+ kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
+ ```
 
 ## Operations
 **Connect to Hue**
@@ -46,6 +51,7 @@
 
 **Kafka Configuration**
 - `sudo nano /etc/kafka/conf.dist/server.properties`
+
 ```
 # Settings for PyctureStream Projecte
 listeners=PLAINTEXT://0.0.0.0:9092
