@@ -13,12 +13,13 @@
 **Change VirtualBox Settings**
 - Change Network to "NAT"
 - Add port forwarding:
-    - SSH: Host 127.0.0.1:2233 to Guest 10.0.2.15:22
+    - SSH: Host 127.0.0.1:2222 to Guest 10.0.2.15:22
     - HUE:  Host 127.0.0.1:8888 to Guest 10.0.2.15:8888
     - JUPYTER:  Host 127.0.0.1:8889 to Guest 10.0.2.15:8889
+    - KAFKA:   Host 127.0.0.1:9092 to Guest 10.0.2.15:9092
 
 **Configure Cloudera**
-- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2233` (Default PW: cloudera)
+- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default PW: cloudera)
 - Run [setup_cloudera.sh](setup_cloudera.sh) in VM:
     ```bash
     wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
@@ -42,3 +43,19 @@
 
 **Connect to Jupyter**
 - In host browser: `http://127.0.0.1:8889/`
+
+**Kafka Configuration**
+- `sudo nano /etc/kafka/conf.dist/server.properties`
+```
+# Settings for PyctureStream Projecte
+listeners=PLAINTEXT://0.0.0.0:9092
+advertised.listeners=PLAINTEXT://0.0.0.0:9092
+```
+
+**Kafka Consumer in Cloudera VM**
+`/usr/bin/kafka-console-consumer --zookeeper localhost:2181 --topic wordcounttopic`
+
+`/usr/bin/kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic`
+
+# LINKS
+https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python

@@ -85,7 +85,7 @@ class webcam_producer():
 
 if __name__ == '__main__':
     # Set source='demo.mp4' for streaming video file
-    webcam_producer(interval=5,
+    webcam_producer(interval=2,
                     source=0,
                     camera_id='holger',
                     server='127.0.0.1:9092',
