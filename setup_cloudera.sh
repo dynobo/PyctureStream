@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOME = "/home/cloudera"
+HOME="/home/cloudera"
 
 # Install Kafka
 sudo yum clean all
