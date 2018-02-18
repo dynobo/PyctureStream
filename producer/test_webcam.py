@@ -39,7 +39,10 @@ def main(argv):
     print("Gain: ", gain)
     print("Exposure: ", exposure)
 
-    cv2.destroyAllWindows()
+    #success, image = cap.read()
+    #cv2.imwrite('test.png', image)
+
+    #cv2.destroyAllWindows()
     cv2.VideoCapture(0).release()
 
 
