@@ -36,7 +36,7 @@ kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partit
 ```
 
 - Open [./notebooks/kafka_wordcount.ipynb](./notebooks/kafka_wordcount.ipynb) in Jupyter and run as Consumer.
-- Use console as Producer to and create some stream events:
+- Use console as Producer to create some stream events:
 
  ```bash
  kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic

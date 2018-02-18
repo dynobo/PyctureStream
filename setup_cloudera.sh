@@ -7,6 +7,13 @@ sudo yum clean all
 sudo yum install -y kafka
 sudo yum install -y kafka-server
 
+# Change Kafka Listener Ports
+sudo sed '/^listeners=/ d' /etc/kafka/conf.dist/server.properties
+sudo sed '/^advertised.listeners=/ d' /etc/kafka/conf.dist/server.properties
+echo "# Settings for PyctureStream Project" | sudo tee -a /etc/kafka/conf.dist/server.properties
+echo "listeners=PLAINTEXT://0.0.0.0:9092" | sudo tee -a /etc/kafka/conf.dist/server.properties
+echo "advertised.listeners=PLAINTEXT://0.0.0.0:9092" | sudo tee -a /etc/kafka/conf.dist/server.properties
+
 # Start Kafka Server
 sudo service kafka-server start
 
