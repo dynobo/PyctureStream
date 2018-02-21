@@ -7,8 +7,10 @@ sudo yum install -y kafka
 sudo yum install -y kafka-server
 
 # Change Kafka Listener Ports
+##  Remove existing configuration
 sudo sed '/^listeners=/ d' /etc/kafka/conf.dist/server.properties
 sudo sed '/^advertised.listeners=/ d' /etc/kafka/conf.dist/server.properties
+##  Add new configuration
 echo "# Settings for PyctureStream Project" | sudo tee -a /etc/kafka/conf.dist/server.properties
 echo "listeners=PLAINTEXT://127.0.0.1:9092" | sudo tee -a /etc/kafka/conf.dist/server.properties
 echo "advertised.listeners=PLAINTEXT://127.0.0.1:9092" | sudo tee -a /etc/kafka/conf.dist/server.properties
