@@ -37,3 +37,9 @@ fi
 # Enable Cron
 CMD='/sbin/runuser cloudera -s /bin/bash -c "/home/cloudera/start_jupyter.sh &"'
 grep -q -F "$CMD" /etc/rc.d/rc.local || echo "$CMD" | sudo tee -a /etc/rc.d/rc.local
+
+# DONE
+echo "-------------------------------------------------------------------"
+echo "DONE!"
+read -p "Press any key to reboot the machine now... (or CTRL+C to exit)" -n1 -s
+sudo shutdown -r now
