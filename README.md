@@ -19,14 +19,14 @@
     - KAFKA:   Host 127.0.0.1:9092 to Guest 10.0.2.15:9092
 
 **Configure Cloudera**
-- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default PW: cloudera)
+- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default User+PW: cloudera)
 - Run [setup_cloudera.sh](setup_cloudera.sh) in VM:
 
 ```bash
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
 ```
 
-Important: Use default Options for Anaconda Installation,  except for the "Add to Path?", where you should choose "Yes", instead the default.
+**Important:** Use default Options for Anaconda Installation,  **except for the "Add to Path?", where you should choose "Yes", instead the default!**.
 
 ## Test Kafka:
 - Create topic
@@ -49,13 +49,13 @@ kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partit
 **Connect to Jupyter**
 - In host browser: `http://127.0.0.1:8889/`
 
-**Kafka Configuration**
+**Kafka Configuration** (already added with `setup_cloudera.sh` !)
 - `sudo nano /etc/kafka/conf.dist/server.properties`
 
 ```
 # Settings for PyctureStream Projecte
-listeners=PLAINTEXT://0.0.0.0:9092
-advertised.listeners=PLAINTEXT://0.0.0.0:9092
+listeners=PLAINTEXT://127.0.0.1:9092
+advertised.listeners=PLAINTEXT://127.0.0.1:9092
 ```
 
 **Kafka Consumer in Cloudera VM**

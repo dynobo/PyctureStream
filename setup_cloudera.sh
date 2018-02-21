@@ -21,6 +21,7 @@ sudo service kafka-server start
 # Install Anaconda with Jupyter + additional packages
 if [ ! -d "$HOME/anaconda2" ]; then
     wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh && chmod +x Anaconda2-5.0.1-Linux-x86_64.sh && ./Anaconda2-5.0.1-Linux-x86_64.sh
+    source "$HOME/.bashrc"
     conda install -c conda-forge jupyterlab opencv
     conda install nose keras pillow h5py py4j
 else
