@@ -9,7 +9,7 @@
 
 ### Install Cloudera Quickstart in VirtualBox
 **1. Install Image**
-- Download [Cloudera Quickstart VM - CDH 5.12](https://www.cloudera.com/downloads/quickstart_vms/5-12.html)
+- Download [Cloudera Quickstart VM - CDH 5.12](https://www.cloudera.com/downloads/quickstart_vms/5-12.html) for Virtual Box
 - Import the Applicance in VirtualBox
 
 **2. Change VM-Settings in VirtualBox**
@@ -20,14 +20,15 @@
     - HUE:  Host 127.0.0.1:9033 to Guest 10.0.2.15:8888 *(we want 9088 for jupyter)*
     - JUPYTER:  Host 127.0.0.1:9088 to Guest 10.0.2.15:8889
     - KAFKA:   Host 127.0.0.1:9092 to Guest 10.0.2.15:9092
-- (Optional) Configure a shared folder for the jupyter notebook folder
+- (Optional) Configure a shared folder for the jupyter notebook folder. In running guest VM do: "Devices" -> "Shared Folders" -> "Shared Folders Settings..."
+- (Optional) Install Guest Additions for better integration with host system. In running guest VM do: "Devices" -> "Insert Guest Additions..."
 
 
 
 ## Setup Software Components
 
 ### In Cloudera VM
-- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default User+PW: cloudera)
+- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 9022` (Default User+PW: cloudera)
 - Run [setup_cloudera_vm.sh](setup_cloudera_vm.sh) in VM:
 ```bash
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
@@ -91,3 +92,5 @@ kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
 
 # Links & Ressources
 - https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python
+- https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html
+- https://github.com/tensorflow/models/tree/master/official/resnet

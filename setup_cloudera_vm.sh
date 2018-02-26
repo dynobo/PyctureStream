@@ -6,6 +6,7 @@
 HOME="/home/cloudera"
 KAFKA_TOPIC="pycturestream"
 
+
 # ------------------------
 # Install Kafka
 
@@ -30,9 +31,12 @@ echo "advertised.listeners=PLAINTEXT://127.0.0.1:9092" | sudo tee -a /etc/kafka/
 
 # ------------------------
 # Start Kafka Server and create topic
-#    It will then also automatically start on reboot
 
+## It will also be automatically started on reboot
 sudo service kafka-server start
+
+## For the topic, we use 1 partition and do not replicate, as we have single
+## node cluster and only limited ressources
 kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC --partitions 1 --replication-factor 1
 
 
