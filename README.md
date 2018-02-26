@@ -2,66 +2,92 @@
 
 > Demo-architecture for distribute image stream processing using Kafka and PySpark
 
-## Setup
 
-### Cloudera Quickstart
 
-### VirtualBox
-**Install Image**
-- [Cloudera Quickstart VM - CDH 5.12](https://www.cloudera.com/downloads/quickstart_vms/5-12.html)
+## Setup Infrastructure
+*Prerequisites:* Local computer with enough ressources (8 GB, better 16 GB RAM, 10-15 GB free space) and a current version of [Oracle VirtualBox](https://www.virtualbox.org/).
 
-**Change VirtualBox Settings**
-- Change Network to "NAT"
-- Add port forwarding:
-    - SSH: Host 127.0.0.1:2222 to Guest 10.0.2.15:22
-    - HUE:  Host 127.0.0.1:8888 to Guest 10.0.2.15:8888
-    - JUPYTER:  Host 127.0.0.1:8889 to Guest 10.0.2.15:8889
+### Install Cloudera Quickstart in VirtualBox
+**1. Install Image**
+- Download [Cloudera Quickstart VM - CDH 5.12](https://www.cloudera.com/downloads/quickstart_vms/5-12.html)
+- Import the Applicance in VirtualBox
+
+**2. Change VM-Settings in VirtualBox**
+- Give the VM as much ressources as possible!
+- Make sure, "Network" is set to "NAT"
+- Add "Port Forwarding" (we'll use `90` as prefix for vm-ports):
+    - SSH: Host 127.0.0.1:9022 to Guest 10.0.2.15:22
+    - HUE:  Host 127.0.0.1:9033 to Guest 10.0.2.15:8888 *(we want 9088 for jupyter)*
+    - JUPYTER:  Host 127.0.0.1:9088 to Guest 10.0.2.15:8889
     - KAFKA:   Host 127.0.0.1:9092 to Guest 10.0.2.15:9092
+- (Optional) Configure a shared folder for the jupyter notebook folder
 
-**Configure Cloudera**
+
+
+## Setup Software Components
+
+### In Cloudera VM
 - SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 2222` (Default User+PW: cloudera)
-- Run [setup_cloudera.sh](setup_cloudera.sh) in VM:
-
+- Run [setup_cloudera_vm.sh](setup_cloudera_vm.sh) in VM:
 ```bash
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
 ```
+- When the setup is finished, accept the input to reboot the VM.
 
-**Important:** Use default Options for Anaconda Installation,  **except for the "Add to Path?", where you should choose "Yes", instead the default!**.
+### On Local Machine
+- Install Anaconda Env (TODO!)
 
-## Test Kafka:
-- Create topic
 
+
+## Tipps for Operations
+**Connect to Hue**
+- Useful for browsing HDFS or debugging Spark Jobs
+- In host browser: `http://127.0.0.1:9033/`
+
+**Connect to VMs Jupyter**
+- The development of the Analytics / Kafka Consumer will be done here
+- In host browser: `http://127.0.0.1:9088/`
+
+
+
+## Testing
+*A set of test procedure, useful for debugging and identifying problems.*
+
+### Test Kafka
+1. Create a topic:
 ```bash
 kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partitions 1 --replication-factor 1
 ```
 
-- Open [./notebooks/kafka_wordcount.ipynb](./notebooks/kafka_wordcount.ipynb) in Jupyter and run as Consumer.
-- Use console as Producer to create some stream events:
-
- ```bash
- kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
- ```
-
-## Operations
-**Connect to Hue**
-- In host browser: `http://127.0.0.1:8888/`
-
-**Connect to Jupyter**
-- In host browser: `http://127.0.0.1:8889/`
-
-**Kafka Configuration** (already added with `setup_cloudera.sh` !)
-- `sudo nano /etc/kafka/conf.dist/server.properties`
-
-```
-# Settings for PyctureStream Projecte
-listeners=PLAINTEXT://127.0.0.1:9092
-advertised.listeners=PLAINTEXT://127.0.0.1:9092
+2. Open console consumer:
+```bash
+/usr/bin/kafka-console-consumer --zookeeper localhost:2181 --topic wordcounttopic
 ```
 
-**Kafka Consumer in Cloudera VM**
-`/usr/bin/kafka-console-consumer --zookeeper localhost:2181 --topic wordcounttopic`
+3. Open console producer:
+```bash
+kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
+```
 
-`/usr/bin/kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic`
+4. Produce some events, and see, if consumer receives them
 
-# LINKS
-https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python
+### Test Spark Streaming + Kafka
+
+1. Create a topic (if not already done):
+```bash
+kafka-topics --create --zookeeper localhost:2181 --topic wordcounttopic --partitions 1 --replication-factor 1
+```
+
+2. Open [./notebooks/kafka_wordcount.ipynb](./notebooks/kafka_wordcount.ipynb) in Jupyter of VM (as Consumer)
+
+3. Open console producer:
+```bash
+kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
+```
+
+4. Produce some events, and see, if consumer receives & processes them correctly
+
+5. Check Job-Browser in Hue  (http://127.0.0.1:9033/) for status of Spark
+
+# Links & Ressources
+- https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python

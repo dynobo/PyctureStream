@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Live Pycture Frames</title>
+        <script language="JavaScript">
+       
+        // Reload image every second and avoid cache
+        function refreshIt(element) {
+            setTimeout(function() {
+                try {
+                    element.src = element.src.split('?')[0] + '?' + new Date().getTime();
+                } catch {
+                    console.log('Error!')
+                    console.log(new Error().stack);
+                }
+            }, 1000);
+                
+        }
+            
+        </script>
+    </head>
+
+    <body>
+        <img style="width:100%;" src="frame.jpg?0123" onload="refreshIt(this)" \>
+    </body>
+    
+</html>
