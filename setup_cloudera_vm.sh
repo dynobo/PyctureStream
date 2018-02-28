@@ -8,7 +8,8 @@ KAFKA_TOPIC="pycturestream"
 
 
 # ------------------------
-# Install Kafka
+# Install various packages
+#    kafka, kafka-Server  - as Message Queue
 
 sudo yum clean all
 sudo yum install -y kafka
@@ -60,8 +61,9 @@ else
     echo "Anaconda3 was already installed."
 fi
 
-## Install packages
+## Install additional packages
 conda install -y -c conda-forge jupyterlab opencv
+conda install -c anaconda tensorflow
 conda install -y nose keras pillow h5py py4j
 
 
@@ -81,6 +83,29 @@ fi
 ## Put Startup-Script in rc.local for autostart on boot (but only, if not already in there).
 CMD='/sbin/runuser cloudera -s /bin/bash -c "/home/cloudera/start_jupyter.sh &"'
 grep -q -F "$CMD" /etc/rc.d/rc.local || echo "$CMD" | sudo tee -a /etc/rc.d/rc.local
+
+
+
+# ------------------------
+# TensorFlow Selected Model & Files
+
+## Download Repo to Home-Directory and extract
+cd $HOME
+wget https://github.com/tensorflow/models/archive/master.zip
+unzip master.zip
+
+## Move Folder for object_detection to notebooks folder & delete the rest
+mv models-master/research/object_detection ./notebooks
+rm -f master.zip
+rm -rf models-master
+
+## Protobuf Compilation, see https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+cd $HOME/notebooks
+protoc object_detection/protos/*.proto --python_out=.
+
+## Download & extract pretrained models
+# TODO
+
 
 
 # ------------------------

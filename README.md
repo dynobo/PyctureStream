@@ -94,3 +94,5 @@ kafka-console-producer --broker-list localhost:9092 --topic wordcounttopic
 - https://scotch.io/tutorials/build-a-distributed-streaming-system-with-apache-kafka-and-python
 - https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html
 - https://github.com/tensorflow/models/tree/master/official/resnet
+- https://github.com/tensorflow/models/tree/master/research/object_detection
+- https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
