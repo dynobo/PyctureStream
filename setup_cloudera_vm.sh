@@ -106,6 +106,9 @@ protoc object_detection/protos/*.proto --python_out=.
 ## Download & extract pretrained models
 # TODO
 
+# ------------------------
+# Clone PyctureStream Repo (with Notebooks, test images etc.)
+# TODO
 
 
 # ------------------------

@@ -28,8 +28,8 @@
 ## Setup Software Components
 
 ### In Cloudera VM
-- SSH into Kafka VM: `ssh cloudera@192.168.0.1 -p 9022` (Default User+PW: cloudera)
-- Run [setup_cloudera_vm.sh](setup_cloudera_vm.sh) in VM:
+- SSH into Cloudera VM, e.g. via: `ssh cloudera@192.168.0.1 -p 9022` (Default User+PW: cloudera)
+- In VM, run [setup_cloudera_vm.sh](setup_cloudera_vm.sh):
 ```bash
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_cloudera.sh && chmod +x ./setup_cloudera.sh && ./setup_cloudera.sh
 ```
