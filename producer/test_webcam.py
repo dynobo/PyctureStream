@@ -3,11 +3,17 @@
 import sys
 import cv2
 
-
-def main(argv):
+def get_device_info(device_id):
     """Output various parameters of video device."""
+    print('-'*30)
+    print('Checking device {} ...'.format(device_id))
+
     # capture from camera at location 0
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(device_id)
+    if not cap.isOpened():
+        print('Camera not found')
+        return
+   
     # Change the camera setting using the set() function
     # cap.set(cv2.CAP_PROP_EXPOSURE, -6.0)
     # cap.set(cv2.CAP_PROP_GAIN, 4.0)
@@ -15,6 +21,7 @@ def main(argv):
     # cap.set(cv2.CAP_PROP_CONTRAST, 27.0)
     # cap.set(cv2.CAP_PROP_HUE, 13.0) # 13.0
     # cap.set(cv2.CAP_PROP_SATURATION, 28.0)
+
     # Read the current setting from the camera
     test = cap.get(cv2.CAP_PROP_POS_MSEC)
     ratio = cap.get(cv2.CAP_PROP_POS_AVI_RATIO)
@@ -39,13 +46,19 @@ def main(argv):
     print("Gain: ", gain)
     print("Exposure: ", exposure)
 
-    #success, image = cap.read()
-    #cv2.imwrite('test.png', image)
+    success, image = cap.read()
+    if success:
+    	cv2.imwrite('test_{}.jpg'.format(device_id), image)
 
-    #cv2.destroyAllWindows()
-    cv2.VideoCapture(0).release()
+    cv2.VideoCapture(device_id).release()
+
+if __name__ == '__main__':
+   # Test 3 devices
+   for i in range(0,4):
+       get_device_info(i)
 
 
+# OTHER PARAMETERS TO QUERY:
 #   0  CV_CAP_PROP_POS_MSEC Current position of the video file in milliseconds.
 #   1  CV_CAP_PROP_POS_FRAMES 0-based index of the frame to be decoded/captured
 #      next.
@@ -69,6 +82,3 @@ def main(argv):
 #   17 CV_CAP_PROP_WHITE_BALANCE Currently unsupported
 #   18 CV_CAP_PROP_RECTIFICATION Rectification flag for stereo cameras (note
 #      only supported by DC1394 v 2.x backend currently)
-
-if __name__ == '__main__':
-    main(sys.argv)
