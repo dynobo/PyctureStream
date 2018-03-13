@@ -8,6 +8,13 @@ KAFKA_TOPIC="pycturestream"
 
 
 # ------------------------
+# Set Timezone
+#    for easier logging
+sudo mv /etc/localtime /etc/localtime.bak
+sudo ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+
+
+# ------------------------
 # Install various packages
 #    kafka, kafka-Server  - as Message Queue
 
@@ -42,7 +49,10 @@ kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC --partitio
 
 
 # ------------------------
-# Install Anaconda itself plus additional packages
+# Install Anaconda itself plus additional packages.
+# We use Python 2, because of compability reasons with the Spark version deliverd
+# in the Cloudera image.
+# Packages:
 #    JupyterLab - We want to this successor of Jupyter Notebook, even in alpha
 #    OpenCV - Image Processing Lib
 #    nose keras pillow h5py py4j - Machine Learning Libs for use with TensorFlow

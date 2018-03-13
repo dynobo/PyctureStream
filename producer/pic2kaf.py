@@ -26,7 +26,7 @@ class webcam_producer():
                  interval: int = 5,
                  source=0,
                  camera_id: str = 'camera_generic',
-                 topic: str = 'wordcounttopic',
+                 topic: str = 'pyturestream',
                  server: str = '127.0.0.1:9092'):
 
         logger.info(f'Initialized camera "{camera_id}" with source {source}.')
@@ -85,8 +85,8 @@ class webcam_producer():
 
 if __name__ == '__main__':
     # Set source='demo.mp4' for streaming video file
-    webcam_producer(interval=2,
+    webcam_producer(interval=5,
                     source=0,
                     camera_id='holger',
                     server='127.0.0.1:9092',
-                    topic='wordcounttopic')
+                    topic='pycturestream')
