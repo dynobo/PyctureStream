@@ -4,7 +4,8 @@
 # Global Varibles
 
 HOME="/home/cloudera"
-KAFKA_TOPIC="pycturestream"
+KAFKA_TOPIC_1="pycturestream"
+KAFKA_TOPIC_2="resultstream"
 
 
 # ------------------------
@@ -13,6 +14,10 @@ KAFKA_TOPIC="pycturestream"
 sudo mv /etc/localtime /etc/localtime.bak
 sudo ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
+
+# ------------------------
+# Add user to VirtualBox Shared Folder Group
+sudo usermod -a -G vboxsf cloudera
 
 # ------------------------
 # Install various packages
@@ -45,7 +50,8 @@ sudo service kafka-server start
 
 ## For the topic, we use 1 partition and do not replicate, as we have single
 ## node cluster and only limited ressources
-kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC --partitions 1 --replication-factor 1
+kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_1 --partitions 1 --replication-factor 1
+kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_2 --partitions 1 --replication-factor 1
 
 
 # ------------------------
@@ -77,6 +83,15 @@ conda install -c anaconda tensorflow
 conda install -y nose keras pillow h5py py4j
 
 
+
+# ------------------------
+# Clone PyctureStream Repo (with Notebooks, test images etc.)
+cd $HOME
+wget https://github.com/dynobo/PyctureStream/archive/master.zip
+unzip master.zip
+rm master.zip
+
+
 # ------------------------
 # Setup Jupyter
 
@@ -85,15 +100,9 @@ conda install -y nose keras pillow h5py py4j
 rm -f "$HOME/start_jupyter.sh"
 wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/start_jupyter.sh && chmod +x ./start_jupyter.sh
 
-## Create folder for storing the notebooks
-if [ ! -d "$HOME/notebooks" ]; then
-    mkdir "$HOME/notebooks"
-fi
-
 ## Put Startup-Script in rc.local for autostart on boot (but only, if not already in there).
 CMD='/sbin/runuser cloudera -s /bin/bash -c "/home/cloudera/start_jupyter.sh &"'
 grep -q -F "$CMD" /etc/rc.d/rc.local || echo "$CMD" | sudo tee -a /etc/rc.d/rc.local
-
 
 
 # ------------------------
@@ -104,21 +113,21 @@ cd $HOME
 wget https://github.com/tensorflow/models/archive/master.zip
 unzip master.zip
 
-## Move Folder for object_detection to notebooks folder & delete the rest
-mv models-master/research/object_detection ./notebooks
+## Move Folder for object_detection to python module folder & delete the rest
+mv models-master/research/object_detection ./anaconda2/lib/python2.7/site-packages/
 rm -f master.zip
 rm -rf models-master
 
 ## Protobuf Compilation, see https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
-cd $HOME/notebooks
+cd $HOME/anaconda2/lib/python2.7/site-packages/
 protoc object_detection/protos/*.proto --python_out=.
 
 ## Download & extract pretrained models
-# TODO
-
-# ------------------------
-# Clone PyctureStream Repo (with Notebooks, test images etc.)
-# TODO
+cd $HOME
+wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17.tar.gz
+tar -xvzf ssd_mobilenet_v1_coco_2017_11_17.tar.gz
+mv ssd_mobilenet_v1_coco_2017_11_17 ./PyctureStream-master/
+rm ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 
 
 # ------------------------

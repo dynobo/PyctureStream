@@ -29,6 +29,7 @@ class webcam_producer():
                  topic: str = 'pyturestream',
                  server: str = '127.0.0.1:9092'):
 
+        logger.info('-'*50)
         logger.info(f'Initialized camera "{camera_id}" with source {source}.')
         logger.info(f'Send to "{topic}" on "{server}" every {interval} sec.')
 
@@ -41,11 +42,14 @@ class webcam_producer():
         self.img_file = './frame.jpg'
 
         # Connection to Kafka Enpoint
-        self.producer = KafkaProducer(bootstrap_servers=self.server,
-                                      value_serializer=lambda m: json.dumps(m).encode('utf8'))
-        self.producer.send(self.topic, b'data')
+        try:
+            self.producer = KafkaProducer(bootstrap_servers=self.server,
+                                          value_serializer=lambda m: json.dumps(m).encode('utf8'))
+        except Exception as e:
+            logger.error(e)
 
         # Start Streaming...
+        logger.info('-'*50)
         self.stream_video()
 
     def stream_video(self):
@@ -58,11 +62,11 @@ class webcam_producer():
             vidcap.release()
             if success is True:
                 # Base64 encode image for transfer in json
-                png = cv2.imencode('.png', image)[1]
-                png_as_text = base64.b64encode(png).decode('utf-8')
+                jpg = cv2.imencode('.jpg', image)[1]
+                jpg_as_text = base64.b64encode(jpg).decode('utf-8')
                 # Build object and send to Kafka
                 result = {
-                    'image': png_as_text,
+                    'image': jpg_as_text,
                     'timestamp': timestamp,
                     'camera_id': self.camera_id
                 }
