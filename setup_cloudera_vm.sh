@@ -51,7 +51,9 @@ sudo service kafka-server start
 
 ## For the topic, we use 1 partition and do not replicate, as we have single
 ## node cluster and only limited ressources
-kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_1 --partitions 1 --replication-factor 1
+## Retention for image-topic is very low, as we don't need images older than 30 sec
+## in our demo-use-case...
+kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_1 --partitions 1 --replication-factor 1 --config retention.ms=20000
 kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_2 --partitions 1 --replication-factor 1
 
 

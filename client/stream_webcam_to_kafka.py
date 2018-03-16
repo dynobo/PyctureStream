@@ -58,7 +58,7 @@ class Webcam_Producer():
         while True:
             vidcap = cv2.VideoCapture(self.video_source)
             success, image = vidcap.read()
-            timestamp = dt.datetime.utcnow().isoformat()
+            timestamp = dt.datetime.now().isoformat()
             vidcap.release()
             if success is True:
                 # Base64 encode image for transfer in json
@@ -89,8 +89,8 @@ class Webcam_Producer():
 
 if __name__ == '__main__':
     # Set source='demo.mp4' for streaming video file
-    Webcam_Producer(interval=10,
+    Webcam_Producer(interval=5,
                     source=0,
-                    camera_id='holger',
+                    camera_id='holger_cam',
                     server='127.0.0.1:9092',
                     topic='pycturestream')

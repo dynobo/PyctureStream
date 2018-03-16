@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Live Pycture Frames</title>
+    <title>PyctureStream Live View</title>
     <script language="JavaScript">
-        // Reload image every second and avoid cache
+        // Reload image every x milliseconds and avoid cache
         function refreshIt(element) {
             setTimeout(function() {
                 try {
@@ -14,13 +14,13 @@
                     console.log('Error!')
                     console.log(new Error().stack);
                 }
-            }, 1000);
+            }, 500);
 
         }
     </script>
     <style>
         body {
-    box-sizing: border-box;
+            box-sizing: border-box;
             background-color: #777;
             text-align: center;
             padding: 10px;
@@ -35,6 +35,7 @@
             float: left;
             top: 25px
         }
+
         #input {
             height: 25%;
             padding-bottom: 20px;
@@ -43,9 +44,10 @@
         #output {
             height: 75%;
         }
+
         img {
-            width:100%;
-            height:100%;
+            width: 100%;
+            height: 100%;
             object-fit: contain;
         }
     </style>
@@ -54,11 +56,11 @@
 <body>
     <div id=input>
         <h1>Input stream</h1>
-        <img src="input.jpg?0123" onload="refreshIt(this)" \>
+        <img src="input.jpg?0123" onload="refreshIt(this)" onerror="refreshIt(this)" \>
     </div>
     <div id=output>
         <h1>Output stream</h1>
-        <img src="output.jpg?0123" onload="refreshIt(this)" \>
+        <img src="output.jpg?0123" onload="refreshIt(this)" onerror="refreshIt(this)" \>
     </div>
 </body>
 

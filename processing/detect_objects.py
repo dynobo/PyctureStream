@@ -19,6 +19,7 @@ import base64
 import json
 import numpy as np
 from StringIO import StringIO
+from timeit import default_timer as timer
 from PIL import Image
 
 # Streaming imports
@@ -44,7 +45,7 @@ class Spark_Object_Detector():
     """
 
     def __init__(self,
-                 interval=5,
+                 interval=10,
                  model_file='',
                  labels_file='',
                  number_classes=90,
@@ -53,13 +54,14 @@ class Spark_Object_Detector():
                  topic_for_produce='resultstream',
                  kafka_endpoint='127.0.0.1:9092'):
         """Initialize Spark & TensorFlow environment."""
-        self.interval = interval
         self.topic_to_consume = topic_to_consume
         self.topic_for_produce = topic_for_produce
         self.kafka_endpoint = kafka_endpoint
         self.treshold = detect_treshold
         self.v_sectors = ['top', 'middle', 'bottom']
         self.h_sectors = ['left', 'center', 'right']
+
+        self.processing = False
 
         # Create Kafka Producer for sending results
         self.producer = KafkaProducer(bootstrap_servers=kafka_endpoint)
@@ -74,8 +76,10 @@ class Spark_Object_Detector():
 
         # Load Spark Context & Logging
         sc = SparkContext(appName='PyctureStream')
-        self.ssc = StreamingContext(sc, 3)
+        self.ssc = StreamingContext(sc, interval) #, 3)
         log4jLogger = sc._jvm.org.apache.log4j
+        log4jLogger.LogManager.getLogger("org"). setLevel( log4jLogger.Level.ERROR )
+        log4jLogger.LogManager.getLogger("akka").setLevel( log4jLogger.Level.ERROR )
         self.logger = log4jLogger.LogManager.getLogger(__name__)
 
         # Load Frozen Network Model & Broadcast to Worker Nodes
@@ -83,11 +87,19 @@ class Spark_Object_Detector():
             model_data = f.read()
         self.model_data_bc = sc.broadcast(model_data)
 
+
+        self.graph_def = tf.GraphDef()
+        self.graph_def.ParseFromString(self.model_data_bc.value)
+
     def start_processing(self):
         """Start consuming from Kafka endpoint and detect objects."""
+        #topicPartion = TopicAndPartition(self.topic_to_consume, 0)
+        #fromOffset = {topicPartion: long(0)}
         kvs = KafkaUtils.createDirectStream(self.ssc,
                                             [self.topic_to_consume],
                                             {'metadata.broker.list': self.kafka_endpoint}
+                                            #'auto.offset.reset': 'largest'}
+        #                                    fromOffsets = fromOffset
                                             )
         kvs.foreachRDD(self.handler)
         self.ssc.start()
@@ -151,20 +163,17 @@ class Spark_Object_Detector():
                 })
         return objs
 
-    def detect_objects(self, payload):
+    def detect_objects(self, event):
         """Use TensorFlow Model to detect objects."""
-        event = json.loads(payload[1])
-
         # Load the image data from the json into PIL image & numpy array
         decoded = base64.b64decode(event['image'])
         stream = StringIO(decoded)
         image = Image.open(stream)
         image_np = self.load_image_into_numpy_array(image)
+        stream.close()
 
         # Load Network Graph
-        graph_def = tf.GraphDef()
-        graph_def.ParseFromString(self.model_data_bc.value)
-        tf.import_graph_def(graph_def, name='')
+        tf.import_graph_def(self.graph_def, name='') # ~ 2.7 sec
 
         # Runs a tensor flow session
         with tf.Session() as sess:
@@ -226,19 +235,19 @@ class Spark_Object_Detector():
             image_tensor = (tf.get_default_graph()
                             .get_tensor_by_name('image_tensor:0')
                             )
+
             # Run inference
             output = sess.run(
                 tensor_dict,
                 feed_dict={image_tensor: np.expand_dims(image, 0)}
-            )
+            )  # ~4.7 sec
             # all outputs are float32 numpy arrays, so convert types as appropriate
             output['num_detections'] = int(output['num_detections'][0])
             output['detection_classes'] = output['detection_classes'][0].astype(
                 np.uint8)
             output['detection_boxes'] = output['detection_boxes'][0]
             output['detection_scores'] = output['detection_scores'][0]
-
-            # tf.session ends here
+           # END tf.session
 
         # Prepare object for sending to endpoint
         result = {'timestamp': event['timestamp'],
@@ -246,21 +255,37 @@ class Spark_Object_Detector():
                   'objects': self.format_object_desc(output),
                   'image': self.get_annotated_image_as_text(image_np, output)
                   }
-
         return json.dumps(result)
 
     def handler(self, timestamp, message):
         """Collect messages, detect object and send to kafka endpoint."""
         records = message.collect()
+        # For performance reasons, we only want to process the newest message
+        # for every camera_id
+        to_process = {}
+        self.logger.info('-'*70)
+
         for record in records:
+            event = json.loads(record[1])
+            self.logger.info('Received Message: '+ event['camera_id'] + ' - ' + event['timestamp'])
+            to_process[event['camera_id']] = event
+
+        for key, event in to_process.items():
+            self.logger.info('-'*70)
+            self.logger.info('Processing Message: ' + event['camera_id'] + ' - ' + event['timestamp'])
+            start = timer()
             self.producer.send(self.topic_for_produce,
-                               self.detect_objects(record))
+                               self.detect_objects(event))
+            end = timer()
+            delta = end - start
+            self.logger.info('Done after ' + str(delta) + ' seconds.')
+            self.logger.info('-'*70)
             self.producer.flush()
 
 
 if __name__ == '__main__':
     sod = Spark_Object_Detector(
-        interval=5,
+        interval=15,
         model_file='/home/cloudera/PyctureStream-master/frozen_inference_graph.pb',
         labels_file='/home/cloudera/PyctureStream-master/mscoco_label_map.pbtxt',
         number_classes=90,

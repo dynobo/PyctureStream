@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 # ==========================================
 # Set the camera id of the client here!
 # Has to be the same as in "stream_webcam_to_kafka.py"
-CAMERA_ID = 'holger'
+CAMERA_ID = 'holger_cam'
 
 # ==========================================
 
