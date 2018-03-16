@@ -79,7 +79,7 @@ else
 fi
 
 ## Install additional packages
-conda install -y -c conda-forge jupyterlab opencv
+conda install -y -c conda-forge jupyterlab opencv kafka-python
 conda install -y -c anaconda tensorflow
 conda install -y nose keras pillow h5py py4j
 
