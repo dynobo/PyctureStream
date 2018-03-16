@@ -4,6 +4,7 @@
 # Global Varibles
 
 HOME="/home/cloudera"
+REPO="$HOME/PyctureStream-master/"
 KAFKA_TOPIC_1="pycturestream"
 KAFKA_TOPIC_2="resultstream"
 
@@ -114,6 +115,7 @@ wget https://github.com/tensorflow/models/archive/master.zip
 unzip master.zip
 
 ## Move Folder for object_detection to python module folder & delete the rest
+cp models-master/research/object_detection/data/mscoco_label_map.pbtxt $REPO
 mv models-master/research/object_detection ./anaconda2/lib/python2.7/site-packages/
 rm -f master.zip
 rm -rf models-master
@@ -126,7 +128,8 @@ protoc object_detection/protos/*.proto --python_out=.
 cd $HOME
 wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 tar -xvzf ssd_mobilenet_v1_coco_2017_11_17.tar.gz
-mv ssd_mobilenet_v1_coco_2017_11_17 ./PyctureStream-master/
+mv ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb $REPO
+rm -rf ssd_mobilenet_v1_coco_2017_11_17
 rm ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 
 
