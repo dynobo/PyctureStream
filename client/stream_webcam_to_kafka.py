@@ -13,7 +13,7 @@ logging.basicConfig(format='%(levelname)s - %(asctime)s: %(message)s',
 logger = logging.getLogger(__name__)
 
 
-class webcam_producer():
+class Webcam_Producer():
     """Stream WebCam Images to Kafka Endpoint.
 
     Keyword arguments:
@@ -39,7 +39,7 @@ class webcam_producer():
         self.camera_id = camera_id
         self.server = server  # Host + Port of Kafka Endpoint
         self.topic = topic
-        self.img_file = './frame.jpg'
+        self.img_file = './input.jpg'
 
         # Connection to Kafka Enpoint
         try:
@@ -89,7 +89,7 @@ class webcam_producer():
 
 if __name__ == '__main__':
     # Set source='demo.mp4' for streaming video file
-    webcam_producer(interval=5,
+    Webcam_Producer(interval=10,
                     source=0,
                     camera_id='holger',
                     server='127.0.0.1:9092',
