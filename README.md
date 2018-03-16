@@ -16,7 +16,7 @@
 - Give the VM as much ressources as possible!
 - Make sure, "Network" is set to "NAT"
 - Add "Port Forwarding" (we'll use `90` as prefix for vm-ports):
-    - SSH: Host 127.0.0.1: to Guest 10.0.2.15:22
+    - SSH: Host 127.0.0.1:9022 to Guest 10.0.2.15:22
     - HUE:  Host 127.0.0.1:9033 to Guest 10.0.2.15:8888 *(we want 9088 for jupyter)*
     - JUPYTER:  Host 127.0.0.1:9088 to Guest 10.0.2.15:8889
     - KAFKA:   Host 127.0.0.1:9092 to Guest 10.0.2.15:9092
