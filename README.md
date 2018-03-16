@@ -13,7 +13,7 @@
 - Import the Applicance in VirtualBox
 
 **2. Change VM-Settings in VirtualBox**
-- Give the VM as much ressources as possible!
+- Give the VM as much ressources as possible! (My Specs: 32GB RAM, i5 QuadCore ~4Ghz, SSD)
 - Make sure, "Network" is set to "NAT"
 - Add "Port Forwarding" (we'll use `90` as prefix for vm-ports):
     - SSH: Host 127.0.0.1:9022 to Guest 10.0.2.15:22
