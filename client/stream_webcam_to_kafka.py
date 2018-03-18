@@ -57,6 +57,8 @@ class Webcam_Producer():
         logger.info(f'Start capturing frames every {self.interval} sec.')
         while True:
             vidcap = cv2.VideoCapture(self.video_source)
+            vidcap.set(3,1280)
+            vidcap.set(4,720)
             success, image = vidcap.read()
             timestamp = dt.datetime.now().isoformat()
             vidcap.release()
@@ -89,7 +91,7 @@ class Webcam_Producer():
 
 if __name__ == '__main__':
     # Set source='demo.mp4' for streaming video file
-    Webcam_Producer(interval=5,
+    Webcam_Producer(interval=3,
                     source=0,
                     camera_id='holger_cam',
                     server='127.0.0.1:9092',

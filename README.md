@@ -23,7 +23,9 @@
 - (Optional) Configure a shared folder for the jupyter notebook folder. In running guest VM do: "Devices" -> "Shared Folders" -> "Shared Folders Settings..."
 - (Optional) Install Guest Additions for better integration with host system. In running guest VM do: "Devices" -> "Insert Guest Additions..."
 
-
+### Webcam
+- Make sure you have a webcam attached to your local computer
+- It should deliver images with 1280x720px resolution at least
 
 ## Setup Software Components
 
@@ -36,9 +38,11 @@ wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_clouder
 - When the setup is finished, accept the input to reboot the VM.
 
 ### On Local Machine
-- Install Anaconda Env (TODO!)
-
-
+- You might need Anaconda Distro with Python 3.6+ for the code running locally
+- The dependencies are listen in Anacoda's `environment.yml`. You can use this file to recreate the environment:
+```bash
+conda env create -f environment.yml
+```
 
 ## Tipps for Operations
 **Connect to Hue**
@@ -50,9 +54,21 @@ wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_clouder
 - In host browser: `http://127.0.0.1:9088/`
 
 
-
 ## Testing
 *A set of test procedure, useful for debugging and identifying problems.*
+
+### Test WebCam
+- Make sure, your webcam is connected. Maybe test with other software, if it's generally working.
+- Run the test script, which tests the first 4 video devices for certain parameters, e.g.:
+```bash
+python ./client/test_webcam.py
+```
+- Interpreting results:
+```
+VIDEOIO ERROR: V4L: index 1 is not correct!         <--- camera might not be connected
+
+Unable to stop the stream: Device or resource busy  <--- camera is in use by other program
+```
 
 ### Test Kafka
 1. Create a topic:

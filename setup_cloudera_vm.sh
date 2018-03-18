@@ -2,7 +2,6 @@
 
 # ------------------------
 # Global Varibles
-
 HOME="/home/cloudera"
 REPO="$HOME/PyctureStream-master/"
 KAFKA_TOPIC_1="pycturestream"
@@ -10,23 +9,30 @@ KAFKA_TOPIC_2="resultstream"
 
 
 # ------------------------
-# Set Timezone
-#    for easier logging
-sudo mv /etc/localtime /etc/localtime.bak
-sudo ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
-
-
-# ------------------------
 # Add user to VirtualBox Shared Folder Group
 sudo usermod -a -G vboxsf cloudera
 
-# ------------------------
-# Install various packages
-#    kafka, kafka-Server  - as Message Queue
 
+# ------------------------
+# Update & install various packages
+#    kafka, kafka-Server  - as Message Queue
 sudo yum clean all
+sudo yum update -y
 sudo yum install -y kafka
 sudo yum install -y kafka-server
+
+
+# -----------------------
+# Deactivate Services not needed for demo to save ressources
+sudo chkconfig --level 5 hive-metastore off
+sudo chkconfig --level 5 hive-server2 off
+sudo chkconfig --level 5 impala-catalog off
+sudo chkconfig --level 5 impala-server off
+sudo chkconfig --level 5 impala-state-store off
+sudo chkconfig --level 5 solr-server off
+sudo chkconfig --level 5 sqoop2-server off
+sudo chkconfig --level 5 sentry-store off
+sudo chkconfig --level 5 oozie off
 
 
 # ------------------------
@@ -53,7 +59,7 @@ sudo service kafka-server start
 ## node cluster and only limited ressources
 ## Retention for image-topic is very low, as we don't need images older than 30 sec
 ## in our demo-use-case...
-kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_1 --partitions 1 --replication-factor 1 --config retention.ms=20000
+kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_1 --partitions 1 --replication-factor 1 --config retention.ms=30000
 kafka-topics --create --zookeeper localhost:2181 --topic $KAFKA_TOPIC_2 --partitions 1 --replication-factor 1
 
 
@@ -84,7 +90,6 @@ fi
 conda install -y -c conda-forge jupyterlab opencv kafka-python
 conda install -y -c anaconda tensorflow
 conda install -y nose keras pillow h5py py4j
-
 
 
 # ------------------------
@@ -133,6 +138,13 @@ tar -xvzf ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 mv ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb $REPO
 rm -rf ssd_mobilenet_v1_coco_2017_11_17
 rm ssd_mobilenet_v1_coco_2017_11_17.tar.gz
+
+
+# ------------------------
+# Set Timezone
+#    for easier logging
+sudo mv /etc/localtime /etc/localtime.bak
+sudo ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
 
 # ------------------------
