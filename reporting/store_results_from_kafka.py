@@ -14,7 +14,6 @@ JSON_FILE = './events.json'
 
 # ==========================================
 
-
 def save_to_file(entries, file_name):
     """Append entries to json file."""
     with open(file_name) as f:
