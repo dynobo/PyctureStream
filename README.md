@@ -1,11 +1,44 @@
 # PyctureStream
 
-> **Demo-architecture for distribute image stream processing using Kafka and PySpark**. <br>
-> Result of a two-month project in a two-person team during my Master programme. The lecture was focused on Big Data Architecture. The goal was to come up with a fictional use-case for Big Data, design an architecture, state reasons for the architectural decisions and implement a Proof-of-Concept.<br>
->In this repository, you'll find the code for the PoC, the [slides](slides.pdf) of our final presentation, and the [documentation in german](documentation.pdf).
+***Description***<br>
+Demo-architecture for a scalable distribute image stream processing using Kafka, Tensorflow and Spark Streaming. Our protoyp contains a client, that streams webcam-images into Kafka, and a analytics-component for detecting objects on those images using tensorflow on spark. The results are sent back to the client and also aggregated and reported in a Dashboard build with Plotly Dash.
 
+***Context***<br>
+Master programme [Data Science & Business Analytics](https://www.hdm-stuttgart.de/ds/de/)<br>Lecture [ BI- and Big-Data-Architectures](https://www.hdm-stuttgart.de/ds/de/weiterbildung/modul_09/)<br>At [University of Media, Stuttgart (DE)](https://www.hdm-stuttgart.de/)
 
-## Setup Infrastructure
+***Goal / Task***<br>
+Come up with a fictional use-case for Big Data, design an architecture for it, state reasons for the architectural decisions and implement a Proof-of-Concept.
+
+***Authors***<br>
+Marcus and me ([dynobo](https://github.com/dynobo))
+
+***Timeline***<br>
+Feb. 2018 - Mar. 2018
+
+***Repo***<br>
+ Code for the Proof-of-Concept; Documentation; [Slides](slides_TBD.pdf) of our final presentation; [Documentation](documentation_TBD.pdf) *(in german)*; Screencast of the [Workflow in action](screencast_TBD.mp4).
+
+----
+
+ **Table of Contents**
+
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Prepare Infrastructure](#prepare-infrastructure)
+	- [Install Cloudera Quickstart in VirtualBox](#install-cloudera-quickstart-in-virtualbox)
+- [Setup Software](#setup-software)
+	- [In Cloudera VM](#in-cloudera-vm)
+	- [On Local Machine](#on-local-machine)
+- [Run the Pipeline](#run-the-pipeline)
+- [Testing](#testing)
+	- [Test WebCam](#test-webcam)
+	- [Test Kafka](#test-kafka)
+	- [Test Spark Streaming + Kafka](#test-spark-streaming-kafka)
+- [Links & Ressources](#links-ressources)
+
+<!-- /TOC -->
+
+## Prepare Infrastructure
 *Prerequisites:* Local computer with enough ressources (8 GB, better 16 GB RAM, 10-15 GB free space) and a current version of [Oracle VirtualBox](https://www.virtualbox.org/).
 
 ### Install Cloudera Quickstart in VirtualBox
@@ -40,7 +73,7 @@ wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_clouder
 conda env create -f environment.yml
 ```
 
-## Pipeline
+## Run the Pipeline
 *Run the different components of the pipeline in parallel (e.g. using multiple consoles):*
 
 #### Video Capturing (Client)
