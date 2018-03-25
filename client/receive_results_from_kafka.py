@@ -37,11 +37,8 @@ def generate_sentences(objects):
         if count > 1:
             # Add plural 's and count
             combined = str(count) + ' ' + \
-                       s.split(' at ')[0] + 's' + ' at ' + \
-                       s.split(' at ')[1] + '.'
+                       s.split(' at ')[0] + 's' + ' at ' + s.split(' at ')[1]
             result.append(combined)
-        else:
-            result.append(str(count) + ' ' + s + '.')
     return result
 
 

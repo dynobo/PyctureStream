@@ -18628,5 +18628,840 @@
         "event_type": "book",
         "timestamp": "2018-03-18 20:18:37.749625",
         "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 18:58:06.496975",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 18:58:06.496975",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:58:28.356276",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:58:28.356276",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:58:28.356276",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:58:36.306048",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:58:36.306048",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:58:36.306048",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 18:58:34.013576",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 18:58:34.013576",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:58:54.412825",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:58:54.412825",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:58:54.412825",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:03.331531",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:03.331531",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:03.331531",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:16.252008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:16.252008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:16.252008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:25.454691",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:25.454691",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:25.454691",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:34.389197",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:34.389197",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:34.389197",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:42.305347",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:42.305347",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:42.305347",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 18:59:56.370813",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 18:59:56.370813",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 18:59:56.370813",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:00:04.306324",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:00:04.306324",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:00:04.306324",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:00:13.323807",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:00:13.323807",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:00:13.323807",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:00:12.885376",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:00:12.885376",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:00:31.347668",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:00:31.347668",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:00:31.347668",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:00:40.366960",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:00:40.366960",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:00:40.366960",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:00:53.394867",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:00:53.394867",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:00:53.394867",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:00:51.421040",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:00:51.421040",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:01:06.182794",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:06.182794",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:01:15.311626",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:15.311626",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:01:15.311626",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:01:13.353879",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:01:28.153568",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:28.153568",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:01:37.173297",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:37.173297",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:01:45.996728",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:45.996728",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:01:45.996728",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "chair",
+        "timestamp": "2018-03-25 19:01:45.996728",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:01:46.124724",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:01:46.124724",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:10:55.671690",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:10:55.671690",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:11:14.408354",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:11:14.408354",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:11:14.408354",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:11:12.138914",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:11:12.138914",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:11:28.497988",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:11:28.497988",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:11:28.497988",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:11:40.423288",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:11:40.423288",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:11:40.423288",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:11:39.973465",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:11:39.973465",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:11:58.383107",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:11:58.383107",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:11:58.383107",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:12:12.852909",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:12:12.852909",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:12:20.334854",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:12:20.334854",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:12:20.334854",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:12:29.177178",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:12:29.177178",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:12:29.177178",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:14:10.198777",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:14:10.198777",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:14:10.198777",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:14:19.083134",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:14:19.083134",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:14:19.083134",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:14:19.171168",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:14:19.171168",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:14:36.008079",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:14:36.008079",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:14:36.008079",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:14:35.539416",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:14:35.539416",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:14:57.982862",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:14:57.982862",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:14:57.479815",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:14:57.479815",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:15:15.946198",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:15:15.946198",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:15:15.946198",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:15:13.957452",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:15:13.957452",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:15:30.305293",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:15:30.305293",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:15:30.432231",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:15:30.432231",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:15:47.404948",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:15:47.404948",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:15:46.908584",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:15:46.908584",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:16:05.333565",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:16:05.333565",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:16:14.246322",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:16:14.246322",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:16:22.212756",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:16:22.212756",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:16:31.403899",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:16:31.403899",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:16:31.403899",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:17:11.229043",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:17:11.229043",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:17:11.229043",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:17:20.141968",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:17:20.141968",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:17:20.141968",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:17:28.114617",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:17:28.114617",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:17:37.130863",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:17:37.130863",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:17:37.130863",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:17:36.723248",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:17:36.723248",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:17:55.145039",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:17:55.145039",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:18:04.000004",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:18:04.000004",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "dining table",
+        "timestamp": "2018-03-25 19:18:04.000004",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:18:04.121220",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:18:04.121220",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:18:21.109597",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:18:21.109597",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:18:20.560985",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:18:20.560985",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:18:37.040076",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:18:37.040076",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:18:47.856450",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:18:47.856450",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:18:47.944790",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:18:47.944790",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:19:04.424542",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:19:04.424542",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "teddy bear",
+        "timestamp": "2018-03-25 19:19:09.836633",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-03-25 19:19:09.836633",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-03-25 19:19:09.986206",
+        "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "couch",
+        "timestamp": "2018-03-25 19:19:09.986206",
+        "camera_id": "marcus_cam"
     }
 ]
