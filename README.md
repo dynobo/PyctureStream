@@ -68,7 +68,7 @@ wget https://raw.githubusercontent.com/dynobo/PyctureStream/master/setup_clouder
 
 ### On Local Machine
 - You might need Anaconda Distro with Python 3.6+ for the code that runs locally
-- The dependencies are listen in [environment.yml](environment.yml). You can use this file to recreate the environment with Anaconda:
+- The dependencies are listen in [environment.yaml](environment.yaml). You can use this file to recreate the environment with Anaconda:
 ```bash
 conda env create -f environment.yml
 ```

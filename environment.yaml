@@ -145,6 +145,7 @@ dependencies:
   - jupyterlab-launcher==0.10.5
   - plotly==2.4.1
   - prompt-toolkit==1.0.15
+  - pyttsx3==2.7
   - requests==2.18.4
   - urllib3==1.22
 prefix: /home/holger/.anaconda3/envs/pycture
