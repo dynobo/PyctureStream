@@ -39,6 +39,8 @@ def generate_sentences(objects):
             combined = str(count) + ' ' + \
                        s.split(' at ')[0] + 's' + ' at ' + s.split(' at ')[1]
             result.append(combined)
+        else:
+            result.append(s)
     return result
 
 
@@ -50,6 +52,7 @@ def speak(objects):
     else:
         sentences = generate_sentences(objects)
         for s in sentences:
+            logger.info(f'[SPEAK] {s}')
             engine.say(s)
     engine.runAndWait()
 
