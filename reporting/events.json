@@ -19463,5 +19463,2550 @@
         "event_type": "couch",
         "timestamp": "2018-03-25 19:19:09.986206",
         "camera_id": "marcus_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:15:40.820280",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:15:40.820280",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:15:48.162526",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:15:48.162526",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:15:55.511834",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:15:55.511834",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:02.859298",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:02.859298",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:10.204059",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:10.204059",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:17.538392",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:17.538392",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:24.886454",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:24.886454",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:32.231581",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:32.231581",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:39.613581",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "potted plant",
+        "timestamp": "2018-04-04 07:16:39.613581",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:46.942793",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:16:57.961936",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:01.895111",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:09.761792",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:17.627260",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:25.506012",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:33.439131",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:41.308852",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:49.194032",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:17:57.118566",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:05.049752",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:05.049752",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:12.958803",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:20.855913",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:28.791955",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:36.676166",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:44.576780",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:18:52.460550",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:00.354846",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:08.321607",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:12.261116",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:20.169806",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:28.052161",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:35.944781",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:43.815532",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:51.688235",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:19:59.590749",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:07.489221",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:15.373663",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:23.278227",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:31.151276",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:39.037023",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:46.907381",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:20:54.829105",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:02.734010",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:10.656876",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:17.561737",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:25.836006",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:33.709058",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:41.577156",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:49.463968",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:21:57.354838",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:05.235149",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:13.157333",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:21.031796",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:28.883993",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:36.736896",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 07:22:44.582668",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:45.469610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:53.245769",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:30:57.122165",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:04.935262",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:12.718925",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:20.509610",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:28.276425",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "cup",
+        "timestamp": "2018-04-04 10:31:36.054042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bottle",
+        "timestamp": "2018-04-04 10:31:43.849573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bottle",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:31:47.736018",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:55.522016",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:55.522016",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:55.522016",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:55.522016",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:31:55.522016",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bottle",
+        "timestamp": "2018-04-04 10:32:03.284889",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:11.063034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bottle",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:18.844019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:26.666102",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:34.428965",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:42.221082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:50.038137",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bottle",
+        "timestamp": "2018-04-04 10:32:57.821050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:01.699659",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:01.699659",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:01.699659",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "backpack",
+        "timestamp": "2018-04-04 10:33:01.699659",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:01.699659",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:09.473915",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "laptop",
+        "timestamp": "2018-04-04 10:33:17.250460",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "chair",
+        "timestamp": "2018-04-04 10:33:25.099594",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:33:32.914442",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:33:40.665042",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:33:44.531812",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:33:52.290449",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:00.054030",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:03.925269",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:11.700391",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:19.482886",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:27.269011",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:31.146180",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:38.912806",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:46.674217",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:50.570783",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:34:58.333274",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:06.099867",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:09.979336",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:17.739582",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:25.498351",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:33.245617",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:37.123842",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:44.876012",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:52.617873",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:35:56.506006",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:04.252064",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:12.040821",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:15.930063",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:23.696994",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:31.456089",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:35.328007",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:43.076009",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:50.851604",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:36:54.745419",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:02.489761",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:10.230011",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:14.104725",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:21.870005",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:29.611060",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:33.484032",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:41.231996",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:48.969597",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:37:52.851473",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:00.588883",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:08.325398",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:16.066300",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:19.942882",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:27.685432",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:35.456030",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:39.335019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:47.101008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:54.869151",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:38:58.749584",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:06.510076",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:14.279004",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:18.145229",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:25.918015",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:33.681049",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:37.575021",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:45.319052",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:53.073027",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:39:56.961020",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:04.710077",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:12.470718",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:16.339550",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:24.087001",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:31.869814",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:35.743328",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:43.498007",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:51.249599",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:40:55.129980",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:02.879995",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:10.636112",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:14.515046",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:22.263028",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:30.013002",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:37.749025",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:41.615761",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:49.368993",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:41:57.124136",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:00.989316",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:08.744000",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:16.527127",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:20.420057",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:28.182921",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:35.989531",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:39.875446",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:47.620463",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:55.369169",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:42:59.239991",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:06.971847",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:14.737015",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:22.505189",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:26.377168",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:34.125285",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:41.884437",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:45.755027",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:43:53.500035",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:01.265981",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:05.134990",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:12.879534",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:20.657349",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:24.528987",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:32.284396",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:40.053021",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:43.927854",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:51.687244",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:44:59.426084",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:03.306003",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:11.128704",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:18.908978",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:22.804200",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bed",
+        "timestamp": "2018-04-04 10:45:30.567187",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:38.335229",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:46.104438",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:49.999639",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:45:57.797019",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:05.590076",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:09.497507",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:17.290274",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:25.055495",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:32.865195",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:36.768996",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:44.563982",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:46:52.399567",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:00.197006",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:04.082995",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:11.837714",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:19.595946",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:27.358023",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:31.237995",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:39.020985",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:46.854740",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:50.756891",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:47:58.562050",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:06.372309",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:10.270123",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:18.041140",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:25.820842",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:33.619536",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:37.528551",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:45.321236",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:53.155252",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:48:57.040906",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:04.839745",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:12.625386",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:20.415322",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:24.321848",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:32.101994",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:39.883476",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:43.787368",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:51.591074",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:49:59.380029",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:07.150010",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:11.029573",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:18.789329",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:26.604092",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:34.354117",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:38.239064",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:46.066867",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:50:53.862683",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "person",
+        "timestamp": "2018-04-04 10:50:57.759068",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "bed",
+        "timestamp": "2018-04-04 10:51:05.566015",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:13.367025",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:17.243955",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:25.017986",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:32.768993",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:40.544283",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:44.419629",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:51:52.192630",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:00.023357",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:07.794891",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:11.674879",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:19.443292",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:27.241005",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:31.123715",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:38.890998",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:46.659060",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:54.439578",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:52:58.314960",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:06.095505",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:13.888092",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:17.772020",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:25.554600",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:33.319175",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:41.083859",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:44.966014",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:53:52.728991",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:00.540183",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:08.302029",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:12.183044",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:19.969561",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:27.761215",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:35.543069",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:39.428068",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:47.194074",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:54.986024",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:54:58.878167",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:06.659008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:14.439558",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:22.205602",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:26.076420",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:33.831984",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:41.596057",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:49.354765",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:55:53.227529",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:00.996385",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:08.759605",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:12.646852",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:20.421118",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:28.189063",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:35.944224",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:39.826376",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:47.609986",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:55.398025",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:56:59.279056",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:07.038348",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:14.869577",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:22.636998",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:26.521067",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:34.274989",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:42.038027",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:45.924101",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:57:53.689985",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:01.441985",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:09.229830",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:13.107887",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:20.895999",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:28.679078",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:36.489350",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:40.374147",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:48.166251",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:58:55.971456",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:03.761999",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:07.641993",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:15.405015",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:23.204091",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:30.974015",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:34.857082",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:42.622549",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:50.422032",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 10:59:54.301749",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:02.088266",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:09.874009",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:17.660686",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:21.538983",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:29.304134",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:37.092020",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:40.985172",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:48.764088",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:00:56.562449",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:00.451652",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:08.269997",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:16.080469",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:23.912014",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:27.809572",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:35.613073",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:43.412026",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:47.296879",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:01:55.097090",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:02.927152",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:10.713669",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:14.607562",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:22.378008",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:30.175990",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:34.068959",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:41.864846",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:02:49.652106",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "scissors",
+        "timestamp": "2018-04-04 11:02:57.429651",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:01.307997",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:09.079643",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:16.906074",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:20.797970",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:28.584180",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:36.363417",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:44.123142",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:48.009654",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:03:55.799224",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:04:03.609635",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:04:11.403034",
+        "camera_id": "holger_cam"
+    },
+    {
+        "event_type": "Nothing detected",
+        "timestamp": "2018-04-04 11:04:15.280300",
+        "camera_id": "holger_cam"
     }
 ]

@@ -16,7 +16,7 @@ Marcus and me ([dynobo](https://github.com/dynobo))
 Feb. 2018 - Mar. 2018
 
 ***Repo***<br>
- Code & Docu for the Proof-of-Concept;[Slides](slides_TBD.pdf) of our final presentation; [Project-Documentation](documentation.pdf) *(in german)*; Screencast of the [Workflow in action](poc_in_action.mkv).
+ Code & Docu for the Proof-of-Concept;[Slides](slides.pdf) of our final presentation; [Project-Documentation](documentation.pdf) *(in german)*; Screencast of the [Workflow in action](poc_in_action.mkv).
 
 ----
 
